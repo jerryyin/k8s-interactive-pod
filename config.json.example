@@ -1,0 +1,12 @@
+{
+  "_comment": "IREE TensorWave Cluster Configuration",
+  "_instructions": "1. Copy this file: cp config.json.example config.json",
+  "_instructions2": "2. Replace YOUR_USERNAME with your AMD username (e.g., mravisha, zyin)",
+  "_instructions3": "3. (Optional) Change the docker_image if you want a different base",
+  
+  "namespace": "iree-dev",
+  "pvc": "iree-dev-YOUR_USERNAME-pvc",
+  "username": "YOUR_USERNAME",
+  "public_ssh_key_path": "~/.ssh/id_rsa.pub",
+  "docker_image": "ghcr.io/nod-ai/ossci-gitops/iree-dev:main"
+}

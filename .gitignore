@@ -1,0 +1,24 @@
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# User config (may contain personal paths/settings)
+config.json
+
+# Kube configs (may contain sensitive data)
+kube-configs/*.conf
+
+# SSH keys (never commit)
+*.pem
+*_rsa
+*_rsa.pub
+id_*
+*.key
+
+# Pod state files
+.kube/pod-port-mappings.json
+pod-temp.yml
+
